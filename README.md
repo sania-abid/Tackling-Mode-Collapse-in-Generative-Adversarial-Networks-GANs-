@@ -163,13 +163,13 @@ Launch the app after training by running the last notebook cell. It provides an 
 | Diversity Analysis | Generate 64 images in one grid to visually inspect mode collapse |
 | Training Metrics | Loss curves + optional placeholder for FID score |
 
-![Gradio App Screenshot](outputs/gradio_screenshot.png)  
-*Add your own screenshot after running the app.*
+<img width="683" height="431" alt="image" src="https://github.com/user-attachments/assets/bd3546af-9271-45db-9836-35da91c5209e" />
 
 ---
-
 # **Project Structure**
 
+```text
+.
 ├── GAN_DCGAN_WGAN_GP.ipynb      # Complete notebook
 ├── outputs/                     # Generated images, loss curves, trained models
 │   ├── dcgan/
