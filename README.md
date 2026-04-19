@@ -131,7 +131,7 @@ All training was performed on **Kaggle GPU T4×2** with memory optimizations (no
 - **DCGAN 64‑image grid** often shows repeated faces.
 - **WGAN‑GP 64‑image grid** exhibits much greater variation.
 
-> 🔍 **Observation:** WGAN‑GP successfully reduces mode collapse thanks to the Wasserstein distance and gradient penalty.
+>  **Observation:** WGAN‑GP successfully reduces mode collapse thanks to the Wasserstein distance and gradient penalty.
 
 ---
 
@@ -155,7 +155,7 @@ cd gan-mode-collapse
 pip install torch torchvision gradio matplotlib tqdm pillow
 jupyter notebook GAN_DCGAN_WGAN_GP.ipynb
 
-## Gradio App
+# **Gradio App**
 
 Launch the app after training by running the last notebook cell. It provides an interactive interface for generating and comparing results.
 
@@ -171,7 +171,7 @@ Launch the app after training by running the last notebook cell. It provides an 
 
 ---
 
-## Project Structure
+# **Project Structure**
 
 ```text
 .
@@ -187,9 +187,6 @@ Launch the app after training by running the last notebook cell. It provides an 
 ├── checkpoints/                 # Intermediate training checkpoints
 ├── README.md
 └── requirements.txt
-```
-
----
 
 ## Requirements
 
