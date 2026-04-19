@@ -121,8 +121,6 @@ All training was performed on **Kaggle GPU T4×2** with memory optimizations (no
 
 ### Loss Curves
 
-![Loss Curves](outputs/loss_curves.png)
-
 - **DCGAN**: Generator and discriminator losses oscillate; mode collapse risk.
 - **WGAN‑GP**: Critic loss correlates with image quality; gradient penalty stays around 10.
 
@@ -149,7 +147,6 @@ All training was performed on **Kaggle GPU T4×2** with memory optimizations (no
 
 ### Option 2: Run Locally (requires GPU)
 
-```bash
 git clone https://github.com/your-username/gan-mode-collapse.git
 cd gan-mode-collapse
 pip install torch torchvision gradio matplotlib tqdm pillow
@@ -173,8 +170,6 @@ Launch the app after training by running the last notebook cell. It provides an 
 
 # **Project Structure**
 
-```text
-.
 ├── GAN_DCGAN_WGAN_GP.ipynb      # Complete notebook
 ├── outputs/                     # Generated images, loss curves, trained models
 │   ├── dcgan/
@@ -200,9 +195,8 @@ Pillow>=9.0.0
 numpy>=1.21.0
 ```
 
-Install dependencies:
+ ## Install dependencies:
 
-```bash
 pip install -r requirements.txt
 ```
 
@@ -214,7 +208,7 @@ pip install -r requirements.txt
 - WGAN-GP Paper (Gulrajani et al., 2017)  
 - PyTorch DCGAN Tutorial
 
----
+
 
 ## License
 
